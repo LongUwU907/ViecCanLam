@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Việc cần làm</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Việc cần làm</h1>
+        <p>Tập trung vào từng việc nhỏ mỗi ngày.</p>
+      </header>
+      <div class="input-section">
+        <input type="text" placeholder="Nhập việc cần làm... " />
+        <button class="btn-app">Thêm</button>
+      </div>
+      <div class="filter-tabs">
+        <button class="tab active">Tất cả</button>
+        <button class="tab">Chưa xong</button>
+        <button class="tab">đã xong</button>
+      </div>
+      <div class="task-board">
+        <div class="task-item completed">
+          <label class="task-label">
+            <input type="checkbox" checked />
+            <span class="custom-checkbox"></span>
+            <span class="task-text">Ôn HTML/CSS</span>
+          </label>
+          <button class="btn-delete">Xóa</button>
+        </div>
+        <div class="task-item">
+          <label class="task-label">
+            <input type="checkbox" />
+            <span class="custom-checkbox"></span>
+            <span class="task-text">Luyện JavaScript</span>
+          </label>
+          <button class="btn-delete">Xóa</button>
+        </div>
+        <div class="task-item">
+          <label class="task-label">
+            <input type="checkbox" />
+            <span class="custom-checkbox"></span>
+            <span class="task-text">Push code lên Github</span>
+          </label>
+          <button class="btn-delete">Xóa</button>
+        </div>
+
+        <div class="task-item">
+          <label class="task-label">
+            <input type="checkbox" />
+            <span class="custom-checkbox"></span>
+            <span class="task-text"
+             
+            > >Thực hành DOM và Events bằng cách xây dựng tính năng thêm, lọc và
+              xóa công việc</span
+          </label>
+          <button class="btn-delete">Xóa</button>
+        </div>
+      </div>
+      <div class="footer-status">Còn 3 việc chưa xong</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
